@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+
+</head>    
+<body>
+    <section class="header">
+       <nav>
+           <a href="index.html"><img src="images/4.png"></a>
+           <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+
+            <ul>
+               <li> <a href="index.html">HOME</a></li>
+                <li> <a href="about.html">ABOUT</a></li>
+                <li> <a href="department.html">DEPARTMENT</a></li>
+                <li> <a href="contact.html">CONTACT</a></li>
+
+               </ul>
+           
+           </div>
+           <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav> 
+ <div class="text-box">
+     <h1>ATRIA INSTITUTE OF TECHNOLOGY</h1>
+    <p>Affiliated to Visvesvaraya Technological University (VTU), Karnataka</p>
+    </p>
+    <a href="" class="hero-btn">Visit us to know more</a>
+ </div>       
+        
+    </section>
+    
+    <!---------Course-------->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <div class="row">
+            <div class="course-col">
+                <h3>BE</h3>
+                <p>BE in Computer Science, BE in Information Science, BE in Mechanical, BE in Civil, BE in Electronics and Communication.
+                    
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>MBA</h3>
+                <p>Single or Dual Specialization are offered among - Core HR,
+                        Core Marketing,
+                        Core Finance.
+                    
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>M.Tech</h3>
+                <p>M.Tech in Computer Science & Engineering, M. Tech in Data Sciences, M.Tech in Artificial Intelligence and Machine Learning.
+                    
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>MCA</h3>
+                <p>Additional Certificates in Software Engineering, Artificial Intelligence & Machine Learning, Data Sciences.
+                    
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    <!--------campus------->
+    <section class='campus'>
+        <h1>Campus Life</h1>
+        <p>Experiences that enrich the lives of students and help them attain their full potential. Maintaining a balance between the modern and traditional in teaching. Co-curricular & Extra-curricualr learning & recreational activities to relax as well as add competencies.</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/campus.png">
+                <div class="layer">
+    
+                </div>
+            </div>
+        
+        <div class="campus-col">
+                <img src="images/campus1.png">
+                <div class="layer">
+    
+                </div>
+            </div>
+        <div class="campus-col">
+                <img src="images/campus2.png">
+                <div class="layer">
+                </div>
+         </div>
+        </div>
+    </section>
+    
+    <!-------------facilities------------>
+    <section class="facilities">
+     <h1>Placements</h1>
+        <p>At Atria, we have placement as an integral part of the education process of a student. Placement preparation & readiness starts soon after admissions - for each student, identifying the basic skills and improvement areas, conducting foundation, add-on, and advantage courses, monitoring the progress and enhancing the readiness to face the placement season with confidence, is an interdisciplinary activity with oversight by the Academic Head and the Placement Head of the institution.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/placement1.png">
+            </div>
+            <div class="facilities-col">
+                <img src="images/placement2.png">
+            </div>
+            <div class="facilities-col">
+                <img src="images/placement.png">
+            </div>
+        </div>
+    </section>
+    
+    <!------------testimonials------------->
+    <section class="testimonials">
+    <h1>COVID-19 MEASURES</h1>
+        <p>Do not let the pandemic disrupt your aspirations and spirit of learning. Atria Institute of Technology is completely committed to building an environment where the students can freely experience overall development and sharpen their skills without any fear of COVID-19. With fortified safety measures, the institute aims assurance to the students against any risk of transmission. We will be delighted to have everyone back into the safe to study surroundings for their holistic growth.</p>
+        <div class="row">
+          <div class="testimonial-col">
+            <img src="images/covid.png">
+            </div>
+             <div class="testimonial-col">
+            <img src="images/covid1.png">
+            </div>
+        </div>
+    </section>
+    
+    <!-----------Call to Action--------->
+<section class="cta">
+    <h1>Enroll For Our Various Courses<br> Seats filling soon, Hurry up!</h1>
+    <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+    
+    <!--------------Footer--------------->
+     <section class="footer">
+         <h4>About Us</h4>
+         <p>Atria Institute of Technology has made a name for <br>itself as an institute of repute with a track record of<br> excellent placements.</p>
+         <div class="icons">
+             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         <i class="fa fa-facebook"></i>
+          <i class="fa fa-twitter"></i>
+              <i class="fa fa-instagram"></i>
+              <i class="fa fa-linkedin"></i>
+         </div>
+         <p><span>&#169;</span>2021 Atria Institute Of Technology</p>
+    </section>
+    
+    <!------Javascript for toggle menu------>
+    
+    <script>
+     var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    
+    </script>
+</body>   
+    
+    
+    
+</html>
